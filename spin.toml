@@ -1,0 +1,15 @@
+spin_version = "1"
+authors = ["karthik Ganeshram <karthik.ganeshram@fermyon.com>"]
+description = "Generate custom badges for github actions"
+name = "spin-gh-badges"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "spin-gh-badges"
+source = "target/spin-http-js.wasm"
+allowed_http_hosts = ["https://gist.githubusercontent.com"]
+[component.trigger]
+route = "/..."
+[component.build]
+command = "npm run build"
