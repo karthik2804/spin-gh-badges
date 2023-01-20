@@ -1,6 +1,6 @@
 ## spin-gh-badges
 
-This is an example of using Spin to dynamically create status badges based on content from github gists. This uses the NPM package [tiny-badge-maker](https://www.npmjs.com/package/tiny-badge-maker/v/1.1.1) to generate the badges.
+This is an example of using Spin to dynamically create status badges based on content from github gists. This uses the NPM package [tiny-badge-maker](https://www.npmjs.com/package/tiny-badge-maker/v/1.1.1) to generate the badges. This can be used to create multiple status badges for Github actions by having the action write to a Github gist the different gists and using this app to create the badges.
 
 ### Example
 
